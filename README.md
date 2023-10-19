@@ -8,6 +8,7 @@
   </p>
 </div>
 
+[demo video](https://github.com/iammatthi/gesture-control/assets/40419916/75b0fd30-4c77-4c47-8ef6-3f55a4e72950)
 
 <!-- TABLE OF CONTENTS -->
 <details>
