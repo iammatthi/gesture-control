@@ -13,6 +13,7 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+    <li><a href="#note-for-non-linux-systems">Note for Non-Linux Systems</a></li>  
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -31,9 +32,14 @@
 
 <!-- ABOUT THE PROJECT -->
 
+## Note for Non-Linux Systems
+
+The instructions provided in this README are tailored for Linux systems. If you are using a different operating system, such as macOS or Windows, please be aware that some commands may not work as-is.
+
 ## About The Project
 
 Gesture Control is a project that empowers you to control your Philips Hue lights using hand gestures. 
+
 
 ### Built With
 
