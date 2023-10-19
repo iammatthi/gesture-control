@@ -77,7 +77,7 @@ def act(result: GestureRecognizerResult, lights: LightsManager, light: int):
                 lights.change_brightness(light, 254)
             case "Thumb_Down":
                 print("Decrease intensity")
-                lights.change_brightness(light, 50)
+                lights.change_brightness(light, 0)
             case "Open_Palm":
                 print("Turn off")
                 lights.turn_off(light)

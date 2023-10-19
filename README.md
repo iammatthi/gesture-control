@@ -57,31 +57,37 @@ To get a local copy up and running follow these simple example steps.
    ```sh
    cd gesture-control
    ```
-3. Create virtual environment
-   ```sh
-   python3 -m venv venv
-   ```
-4. Activate virtual environment
-   ```sh
-   source venv/bin/activate
-   ```
-5. Install dependencies
-   ```sh
-   pip install -r requirements.txt
-   ```
-6. Download gesture recognition model
-    ```sh
-    mkdir models
-    wget -q https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task -O models/gesture_recognizer.task
-    ```
-7. Get Philips Hue Bridge information
-    - Follow [this](https://developers.meethue.com/develop/get-started-2/) guide to get the IP address and username of your bridge 
-6. Create and edit `config.yml` file (see [`config.yml.example`](config.yml.example) for an example)
+3. Configure the application
+    - Use automatic configuration (recommended)
+        ```sh
+        chmod +x configure.sh
+        ./configure.sh
+        ```
+    - Use manual configuration
+        1. Create virtual environment
+        ```sh
+        python3 -m venv venv
+        ```
+        2. Activate virtual environment
+        ```sh
+        source venv/bin/activate
+        ```
+        3. Install dependencies
+        ```sh
+        pip install -r requirements.txt
+        ```
+        4. Download gesture recognition model
+            ```sh
+            mkdir models
+            wget -q https://storage.googleapis.com/mediapipe-models/gesture_recognizer/gesture_recognizer/float16/1/gesture_recognizer.task -O models/gesture_recognizer.task
+            ```
+        5. Create and edit `config.yml` file (see [`config.yml.example`](config.yml.example) for an example)
+            - Follow [this](https://developers.meethue.com/develop/get-started-2/) guide to get all information needed for the config file
 
 <!-- USAGE EXAMPLES -->
 
 ## Run The Application
-Make sure you have a virtual environment activated. Then run the following command:
+Make sure you have a virtual environment activated (`source venv/bin/activate`). Then run the following command:
 ```bash
 python main.py
 ```
