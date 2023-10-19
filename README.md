@@ -6,9 +6,10 @@
   <p align="center">
     Manage Philips Hue Lights with Hand Gestures
   </p>
-</div>
 
-<img src="https://github.com/iammatthi/gesture-control/assets/40419916/6469c7e1-f4f9-4a8d-923e-ac83ca544f2a" width="100%" heigth="100%" alt="demo video"/>
+  ![demo](https://github.com/iammatthi/gesture-control/assets/40419916/1d3a800c-81cd-447a-8168-22c40ff41c02)
+
+</div>
 
 
 <!-- TABLE OF CONTENTS -->
